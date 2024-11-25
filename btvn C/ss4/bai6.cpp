@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
 	float c, m, t,d,tong;
+	
+	scanf("%f %f", &m, &c);
 	d = m - c;
-	scanf("%f %f", &c, &m);
 	if(d >= 0 && d < 50){
 		t = 10.000;
 	}else if(d >= 50 && d < 100){
