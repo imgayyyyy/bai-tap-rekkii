@@ -5,8 +5,9 @@
 
 int main(int argc, char *argv[]) {
 
-//	int n=0;
+	int n=0;
 	struct Student student[50];
+	struct Teacher teacher[50];
 	int choose;
 	
 	do{
@@ -14,9 +15,10 @@ int main(int argc, char *argv[]) {
 		scanf("%d",&choose);
 		switch(choose){
 			case 1:
+				studentMenu(student,n);
 				break;
 			case 2:
-				studentMenu(struct Student student[]);
+				teacherMenu(teacher,n);
 				break;
 			case 0:
 				printf("thoat chuong trinh");
